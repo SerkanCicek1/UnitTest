@@ -1,0 +1,4 @@
+Senaryo: ShoppingCartService sınıfı, kullanıcının sepetine ürün eklemek için ProductManager
+    sınıfına bağımlıdır. Her ürünün stok durumunu kontrol etmek için ProductManager'ı kullanır.
+    Bizim test senaryomuzda, ShoppingCartService'in addProductToCart metodunu test edeceğiz ve
+    ProductManager'ın davranışlarını kontrol etmek için Mockito kullanacağız.

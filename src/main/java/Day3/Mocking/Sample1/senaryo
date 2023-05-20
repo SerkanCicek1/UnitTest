@@ -1,0 +1,4 @@
+Örneğimizde, bir UserService sınıfı ve bu sınıfı test etmek için bir UserManager sınıfı kullanacağız.
+    UserManager sınıfı, UserService'in kullanıcı işlemlerini gerçekleştiren bağımlılığını temsil eder.
+    UserService sınıfını test ederken UserManager'in gerçek bir örneğini kullanmak yerine, bu
+    bağımlılığı mock (sahte) bir nesneyle değiştireceğiz.
